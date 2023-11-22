@@ -7,7 +7,7 @@ mariadb 백업테스트
 2. mariadb로 full백업 또는 증분백업으로 진행이 필요함
 - mariabackup 스크립트 작성
 - /etc/crontab에 스케줄 등록
-- 21 13 * * * root sh /data/mariadb_backup.sh
+- - 05 1 * * * root sh /data/mariadb_backup.sh
 
 참고 사이트
 - https://idchowto.com/mariabackup_%EC%9C%BC%EB%A1%9C_mariadb_backup%ED%95%98%EB%8A%94_%EB%B0%A9%EB%B2%95/
